@@ -6,7 +6,7 @@ import os  # <-- DODAJ ten import do obsługi zmiennych środowiskowych
 
 # UWAGA: NIGDY NIE UMIESZCZAJ TOKENA BEZPOŚREDNIO W KODZIE!
 # Pobierz token ze zmiennej środowiskowej, którą za chwilę skonfigurujemy.
-TOKEN = os.getenv('MTQ5MDc1MzQxNTc2MjkzOTk5Nw.GrrhQo.ekBIKV2PetAixyOSzWznocRKo29cc492uR9vzk')
+TOKEN = os.getenv('MTQ5MDc1MzQxNTc2MjkzOTk5Nw.Gal-fX.6bxEjOumXu235aEudNpqzOFUcPPcXO4iWZrmYY')
 
 # Sprawdź, czy token został pobrany, jeśli nie – zakończ działanie.
 if not TOKEN:
