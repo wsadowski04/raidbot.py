@@ -1,1 +1,1 @@
-
+worker: Python bottraid.py
