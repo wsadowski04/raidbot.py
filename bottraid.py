@@ -5,7 +5,7 @@ import asyncio
 import os # Dodane do obsługi Railway
 
 # TOKEN pobierany bezpiecznie z zakładki Variables w Railway
-TOKEN = os.getenv('TOKEN') 
+TOKEN = os.getenv('MTQ5MDc1MzQxNTc2MjkzOTk5Nw.GrrhQo.ekBIKV2PetAixyOSzWznocRKo29cc492uR9vzk') 
 
 class RaidControlView(discord.ui.View):
     def __init__(self, text):
