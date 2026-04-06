@@ -4,12 +4,11 @@ from discord.ext import commands
 import asyncio
 import os
 
-# Pobieramy token ze zmiennych środowiskowych (Railway)
+# Pobieramy token ze zmiennych środowiskowych
 TOKEN = os.getenv('DISCORD_TOKEN')
 
-# Jeśli tokena nie ma – bot się nie uruchomi
 if not TOKEN:
-    print("❌ Błąd: Brak tokena! Ustaw zmienną DISCORD_TOKEN w Railway.")
+    print("❌ Błąd: Brak tokena! Ustaw zmienną DISCORD_TOKEN w Railway/Render.")
     exit(1)
 
 class RaidControlView(discord.ui.View):
